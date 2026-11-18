@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408 768" role="img" aria-labelledby="title">
+  <title id="title">AcidCode logo</title>
+  <rect width="1408" height="768" fill="#0b0b0b"/>
+  <g fill="#b6f000">
+    <path d="M240 250 L110 384 L240 518 L300 518 L300 470 L212 384 L300 298 L300 250 Z"/>
+    <path d="M370 250 L370 298 L458 384 L370 470 L370 518 L430 518 L560 384 L430 250 Z"/>
+    <path d="M345 230 L385 230 L270 538 L230 538 Z"/>
+  </g>
+  <text x="600" y="470" fill="#f5f5f5" font-family="Segoe UI, Inter, Arial, sans-serif"
+        font-size="190" font-weight="600" letter-spacing="-8">AcidCode</text>
+</svg>

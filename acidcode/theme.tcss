@@ -1,0 +1,259 @@
+Screen {
+    background: $acid-bg;
+    color: $acid-text;
+}
+
+/* ---------------------------------------------------------------- top bar */
+
+#topbar {
+    height: 2;
+    background: $acid-bg;
+    border-bottom: solid $acid-border2;
+    padding: 0 2;
+    layout: horizontal;
+    align-vertical: middle;
+}
+
+#brand-mark {
+    width: auto;
+    color: $acid-accent;
+    text-style: bold;
+    padding: 0 1 0 0;
+}
+
+#brand-name {
+    width: auto;
+    color: $acid-text;
+    text-style: bold;
+}
+
+#brand-version {
+    width: auto;
+    color: $acid-modtag;
+    padding: 0 1;
+}
+
+#brand-dot {
+    width: auto;
+    color: $acid-accent;
+}
+
+#topbar-spacer {
+    width: 1fr;
+}
+
+#branch {
+    width: auto;
+    color: $acid-dim;
+    text-align: right;
+    content-align: right middle;
+}
+
+/* --------------------------------------------------------------- workspace */
+
+#workspace {
+    height: 1fr;
+    layout: horizontal;
+    padding: 0 2;
+}
+
+#code-panel,
+#ai-panel {
+    height: 1fr;
+    border: round $acid-border;
+    border-title-align: center;
+    border-title-color: $acid-dim;
+    border-title-background: $acid-bg;
+    background: $acid-panel;
+}
+
+#code-panel {
+    width: 1fr;
+    margin-right: 1;
+}
+
+#ai-panel {
+    width: 1fr;
+}
+
+#code-scroll {
+    height: 1fr;
+    overflow-x: hidden;
+    scrollbar-size-horizontal: 0;
+    scrollbar-background: $acid-panel;
+    scrollbar-color: $acid-scroll;
+    scrollbar-color-hover: $acid-accent;
+    scrollbar-color-active: $acid-accent;
+}
+
+#code {
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    padding: 1 2;
+    color: $acid-text;
+    text-wrap: nowrap;
+}
+
+#chat {
+    height: 1fr;
+    padding: 1 2;
+    scrollbar-background: $acid-panel;
+    scrollbar-color: $acid-scroll;
+    scrollbar-color-hover: $acid-accent;
+    scrollbar-color-active: $acid-accent;
+}
+
+/* ------------------------------------------------------------ prompt line */
+
+#bottombar {
+    height: 3;
+    layout: horizontal;
+    align-vertical: middle;
+    padding: 0 2;
+    margin: 1 0 1 0;
+}
+
+#promptbox {
+    width: 1fr;
+    height: 3;
+    border: round $acid-accent;
+    background: $acid-bg;
+    padding: 0 1;
+    layout: horizontal;
+    align-vertical: middle;
+}
+
+#prompt-glyph {
+    width: 2;
+    color: $acid-accent;
+    text-style: bold;
+    content-align: center middle;
+}
+
+#prompt {
+    width: 1fr;
+    height: 1;
+    border: none;
+    background: transparent;
+    color: $acid-input;
+    padding: 0;
+    margin: 0;
+}
+
+#prompt:focus {
+    border: none;
+    background: transparent;
+}
+
+#prompt-meta {
+    width: 58;
+    max-width: 58;
+    padding-left: 2;
+    color: $acid-dim;
+    text-align: right;
+    content-align: right middle;
+    text-wrap: nowrap;
+}
+
+/* ------------------------------------------------------------------ chat */
+
+.block {
+    width: 100%;
+    margin: 0 0 1 0;
+    padding: 0;
+}
+
+.user {
+    color: $acid-user;
+    text-style: bold;
+    margin: 1 0 0 0;
+}
+
+.tool {
+    color: $acid-accent;
+}
+
+.tool.output {
+    color: $acid-tool-out;
+}
+
+.note {
+    color: $acid-note;
+}
+
+.think {
+    color: $acid-think;
+    text-style: italic;
+}
+
+.earth {
+    color: $acid-accent;
+    margin: 0;
+    padding: 0;
+}
+
+.modtag {
+    color: $acid-modtag;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.error {
+    color: $acid-error-text;
+}
+
+.welcome {
+    color: $acid-accent;
+    margin: 0 0 1 0;
+}
+
+/* --------------------------------------------------------------- markdown */
+
+Markdown {
+    background: transparent;
+    color: $acid-text;
+    margin: 0 0 1 0;
+    padding: 0;
+}
+
+MarkdownH1 {
+    color: $acid-heading;
+    content-align: left top;
+    text-align: left;
+    margin: 1 0 0 0;
+}
+
+MarkdownH2 {
+    color: $acid-heading;
+    text-align: left;
+}
+
+MarkdownH3 {
+    color: $acid-heading;
+    text-align: left;
+}
+
+MarkdownFence {
+    background: $acid-surface;
+    color: $acid-code;
+}
+
+MarkdownBlockQuote {
+    color: $acid-tool;
+}
+
+/* ----------------------------------------------------------------- splash */
+
+SplashScreen {
+    background: $acid-bg;
+    align: center middle;
+}
+
+#splash-text {
+    width: auto;
+    height: auto;
+    padding: 1 2;
+    text-align: center;
+}
