@@ -1,4 +1,4 @@
-# AcidCode
+# AcidCode - t.me/AcidCodeAi
 
 <p align="center">
   <img src="assets/acidcode-logo.svg" alt="AcidCode" width="560">
